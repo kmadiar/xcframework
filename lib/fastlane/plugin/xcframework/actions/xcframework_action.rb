@@ -27,8 +27,7 @@ module Fastlane
             derived_data_path: derived_data_path,
             workspace: workspace,
             xcargs: "-destination \"#{destination}\" "\
-            "SKIP_INSTALL=NO "\
-            "BUILD_LIBRARY_FOR_DISTRIBUTION=YES"
+            "SKIP_INSTALL=NO "
           )
         end
         
